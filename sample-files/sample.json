@@ -1,0 +1,31 @@
+{
+  "name": "Sample JSON File",
+  "description": "This is a sample JSON file for webhook testing",
+  "version": "1.0.0",
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "active": true
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "active": false
+      }
+    ],
+    "settings": {
+      "theme": "dark",
+      "notifications": true,
+      "language": "en"
+    }
+  },
+  "timestamp": "2024-01-15T10:30:00Z",
+  "metadata": {
+    "fileSize": "small",
+    "testCase": "webhook-upload"
+  }
+} 

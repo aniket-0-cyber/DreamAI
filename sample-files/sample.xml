@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <metadata>
+    <title>Sample XML File</title>
+    <description>This is a sample XML file for webhook testing</description>
+    <created>2024-01-15</created>
+  </metadata>
+  <data>
+    <products>
+      <product id="1">
+        <name>Laptop</name>
+        <price>999.99</price>
+        <category>Electronics</category>
+        <inStock>true</inStock>
+      </product>
+      <product id="2">
+        <name>Coffee Mug</name>
+        <price>12.99</price>
+        <category>Kitchen</category>
+        <inStock>false</inStock>
+      </product>
+    </products>
+    <config>
+      <setting name="debug" value="true"/>
+      <setting name="maxFileSize" value="10MB"/>
+    </config>
+  </data>
+</root> 
